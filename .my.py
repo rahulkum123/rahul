@@ -1,0 +1,12 @@
+from datetime import datetime as dt
+d=dt.now().date() 
+t=dt.now().time()
+print(d)
+print(t)
+print(d.strftime("%d-%m-%y"))
+print(d.strftime("%d-%m-%Y"))
+print(d.strftime("%d-%b-%y"))
+print(d.strftime("%d/%B/%Y"))
+print(d.strftime("%d/%m/y,%a"))
+print(d.strftime("%d/%m/%Y,%A"))
+print(t.strftime("%d/%m/%y"))
